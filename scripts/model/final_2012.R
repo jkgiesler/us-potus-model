@@ -3,7 +3,7 @@
 
 ## Setup
 #rm(list = ls())
-options(mc.cores = 4)
+options(mc.cores = 16)
 
 ## Libraries
 {
@@ -432,7 +432,7 @@ data <- list(
 
 ### Initialization ----
 
-n_chains <- 4
+n_chains <- 16
 
 initf2 <- function(chain_id = 1) {
   # cat("chain_id =", chain_id, "\n")

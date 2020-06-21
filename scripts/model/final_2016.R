@@ -3,10 +3,10 @@
 
 ## Setup
 rm(list = ls())
-options(mc.cores = 4)
+options(mc.cores = 16)
 n_iter <- 1000
 n_warmup <- 500
-n_chains <- 4
+n_chains <- 16
 n_refresh <- 50
 
 ## Libraries

@@ -1,5 +1,9 @@
 State and national presidential election forecasting model
 ================
+## TODO(jkg):
+- dockerize (had to install gfortran on my mac and stan is misbehaving with RStudio)
+- convert core stan code to numpyro
+
 Last update on Thursday June 11, 2020 at 07:37 AM EDT
 
 Code for a dynamic multilevel Bayesian model to predict US presidential
